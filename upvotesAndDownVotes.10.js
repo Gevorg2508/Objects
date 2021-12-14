@@ -5,7 +5,7 @@ let getVoteCount = function (obj){
     }else if(upvotes < downvotes){
         return console.log((downvotes - upvotes)*-1);
     }else {
-        console.log(upvotes - downvotes);
+        return console.log(upvotes - downvotes);
     }
 }
 
